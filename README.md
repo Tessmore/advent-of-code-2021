@@ -17,6 +17,13 @@ cargo new day01 --bin
 cargo run
 ```
 
+**Update rust version**
+
+```
+rustup self update
+
+rustup update stable
+```
 
 #### TIL
 
