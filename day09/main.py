@@ -44,3 +44,11 @@ for index, value in enumerate(heatmap, start = 0):
         total.append(lowest + 1)
 
 print("SUM", sum(total))
+
+
+# Part 2
+# Get list of the indexes of lowest points
+#
+# From each lowest point go:
+#  UP then as far left and right as possiple (repeat with UP steps)
+#  Down then as far left and right as possiple (repeat with DOWN steps)
